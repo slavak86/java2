@@ -13,27 +13,6 @@ public class App {
     public static void main(String[] args) {
         printArray(array);
 
-//        String[][] arrays = new String[1][];
-
-
-//        String[][] arr2 = {{"1", "2", "2", "3"},
-//                {"2", "3", "4", "5"},
-//                {"3", "4", "5", "6"},
-//                {"4", "5", "6", "7"}};
-
-//        String[][] arr3 = {{"1", "2", "3", "4"},
-//                {"2", "3", "4", "5"},
-//                {"3", "4", "5", "6"},
-//                {"4", "5", "6", "7"}};
-//        arrays[0] = arr1;
-//        arrays[1] = arr2;
-//        arrays[2] = arr3;
-
-//        for (String[] arr : arrays) {
-//            printArray(arr1);
-
-
-
             try {
                 System.out.printf("Сумма элементов массива равна %s%n%n", getSum(array));
             } catch (MyArrayDataException | MyArraySizeException ex) {
